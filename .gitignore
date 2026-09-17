@@ -1,0 +1,54 @@
+# ─────────────────────────────────────────────
+#  모델 가중치 — 절대 커밋하지 않습니다
+#  학습된 화자 모델은 실존 인물의 음색이므로 배포하지 않습니다
+# ─────────────────────────────────────────────
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+checkpoints/
+lightning_logs/
+events.out.tfevents*
+
+# ─────────────────────────────────────────────
+#  음원 — 원곡 저작권 + 퍼블리시티권
+# ─────────────────────────────────────────────
+*.wav
+*.flac
+*.m4a
+*.ogg
+# assets/ 의 공개 선별 음원은 예외
+*.mp3
+!assets/audio/*.mp3
+raw/
+results/
+data/
+preprocess_out/
+vocals/
+
+# ─────────────────────────────────────────────
+#  자격증명 — 커밋 금지
+# ─────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
