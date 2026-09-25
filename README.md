@@ -15,8 +15,7 @@
 | **5명** | **2,527개** | **약 194시간** | **+0.0 cent** |
 
 <p align="center">
-  <img src="assets/01-음색변환-전후비교.png" width="880"><br>
-  <em>같은 노래, 다른 음색 — 음정은 유지되고 배음 구조만 바뀝니다 (화자명은 익명 처리)</em>
+  <img src="assets/00-대표이미지.png" width="880">
 </p>
 
 📖 **[포트폴리오에서 보기](https://chlgks2.github.io/p/dream-shaper.html)** · 발주처 한국전파진흥협회
